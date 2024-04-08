@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color:#242424;
+  color: white;
+}
+
+.tools{
+  background-color:#70fe8c1b;
+  padding: 1px 8px;
+  border-radius: 20px;
+  color: #89ff9fcd;
+  font-size: calc(14*1)
+}
