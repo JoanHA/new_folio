@@ -2,20 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-body{
-  background-color:#242424;
+body {
+  background-color: rgb(17, 17, 17);
   color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.tools{
-  background-color:#70fe8c1b;
+.tools {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  background-color: #70fe8c1b;
   padding: 1px 8px;
   border-radius: 20px;
   color: #89ff9fcd;
-  font-size: calc(14*1)
+  font-size: calc(14 * 1);
+}
+.social-links a {
+  background-color: #19231B80;
+  color: #89ff9fcd;
+  box-shadow: inset 0 0 1px #77fd925d;
+}
+.social-links {
+  display: flex;
+  background-color: #19231B80;
+  align-items: center;
+  border: 0.005cap solid #89ff9fcd;
+  cursor: pointer;
+  color: #89ff9fcd;
+
+  padding: 3px 10px;
+  border-radius: 18px;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: min(2px, max(1px, 0.05em));
+  text-underline-offset: calc(0.025em + 2px);
+  text-decoration-color: #68ff8b3b;
+}
+.social-links  :hover{
+  filter: brightness(96%);
 }

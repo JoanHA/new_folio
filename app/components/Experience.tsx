@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBiohazard } from "react-icons/fa6";
+import { FaStoreAlt } from "react-icons/fa";
 
 export default function Experience() {
   return (
@@ -8,26 +9,77 @@ export default function Experience() {
         <h2 className="text-2xl font-bold">Experiencia</h2>
       </div>
       {/* bioart */}
-      <div className="flex flex-wrap gap-3">
-        <div>
-          <FaBiohazard />
+      <div className="flex gap-3 flex-row my-3">
+        <div className="  flex ">
+          <div className="bg-[#57ff802c] w-[50px] flex items-center justify-center  h-[50px] rounded-3xl  text-[#89ff9fcd]">
+            <FaBiohazard size={40} />
+          </div>
         </div>
-        <div className="flex flex-col gap-3 flex-grow">
+        <div className="flex flex-col gap-2 flex-grow flex-shrink-1 justify-center">
           <div>
-            <p>Bioart S.A</p>
+            <p className="m-0 font-bold">Bioart S.A</p>
           </div>
           <div>
-            <p>Desarrollador fullstack y Soporte IT</p>
+            <p className="capitalize">Desarrollador Fullstack y Soporte IT</p>
           </div>
-          <div><p className="text-sm text-[#F6FEF4B0]">Trabajo como soporte informático y desarrollador web fullstack. En mi estancia aquí pude desarrollar dos
-proyectos fullstack usando React.js , Node.js y MYSQL.</p></div>
+          <div>
+            <p className="text-sm text-[#F6FEF4B0]">
+              Trabajo como soporte informático y desarrollador web fullstack. En
+              mi estancia aquí pude desarrollar dos proyectos fullstack usando
+              React.js , Node.js y MYSQL.
+            </p>
+          </div>
         </div>
-        <div>
-          <p>Oct/2023 - Abril/2024</p>
+        <div className="">
+          <div className="flex flex-row text-sm s gap-1  rounded-3xl  px-2 text-[#89ff9fcd] bg-[#57ff802c]">
+            <span className="font-bold" style={{ fontSize: "10px" }}>
+              Oct/2023
+            </span>
+            <span className="font-bold" style={{ fontSize: "10px" }}>
+              -
+            </span>
+            <span className="font-bold" style={{ fontSize: "10px" }}>
+              Abril/2024
+            </span>
+          </div>
         </div>
       </div>
       {/* Innovatech */}
-      <div></div>
+      <div className="flex gap-3 flex-row my-3">
+        <div className="  flex ">
+          <div className="bg-[#57ff802c] w-[50px] flex items-center justify-center  h-[50px] rounded-3xl  text-[#89ff9fcd]">
+            <FaStoreAlt size={30} />
+          </div>
+        </div>
+        <div className="flex flex-col gap-2 flex-grow flex-shrink-1 justify-center">
+          <div>
+            <p className="m-0 font-bold"> Innovatech Occidente</p>
+          </div>
+          <div>
+            <p className="capitalize">Product owner and developer</p>
+          </div>
+          <div>
+            <p className="text-sm text-[#F6FEF4B0]">
+              Trabajo como soporte informático y desarrollador web fullstack. En
+              mi estancia aquí pude desarrollar dos proyectos fullstack usando
+              React.js , Node.js y MYSQL.
+            </p>
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-row text-sm s gap-1  rounded-3xl  px-2 text-[#89ff9fcd] bg-[#57ff802c]">
+            <span className="font-bold" style={{ fontSize: "10px" }}>
+              Oct/2023
+            </span>
+            <span className="font-bold" style={{ fontSize: "10px" }}>
+              -
+            </span>
+            <span className="font-bold" style={{ fontSize: "10px" }}>
+              Abril/2024
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
