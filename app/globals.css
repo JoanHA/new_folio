@@ -11,6 +11,8 @@ body {
   background-color: rgb(17, 17, 17);
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --text-color:#F6FEF4B0;
+  --clean-green: #89ff9fcd
 }
 
 .tools {
@@ -22,21 +24,21 @@ body {
   background-color: #70fe8c1b;
   padding: 1px 8px;
   border-radius: 20px;
-  color: #89ff9fcd;
+  color: var(--clean-green);
   font-size: calc(14 * 1);
 }
 .social-links a {
   background-color: #19231B80;
-  color: #89ff9fcd;
+  color: var(--clean-green);
   box-shadow: inset 0 0 1px #77fd925d;
 }
 .social-links {
   display: flex;
   background-color: #19231B80;
   align-items: center;
-  border: 0.005cap solid #89ff9fcd;
+  border: 0.005cap solid var(--clean-green);
   cursor: pointer;
-  color: #89ff9fcd;
+  color: var(--clean-green);
 
   padding: 3px 10px;
   border-radius: 18px;
@@ -48,4 +50,15 @@ body {
 }
 .social-links  :hover{
   filter: brightness(96%);
+}
+
+.tools-used{
+  background-color: #F4F5F312;
+  border-radius: 20px;
+  color: var(--text-color);
+  padding: 2px 8px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }

@@ -10,10 +10,10 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between  ">
-      <div className="mx-auto px-[32px] py-[64px] flex flex-col">
+      <div className="mx-auto px-[32px] py-[64px] flex flex-col max-w-[900px]">
       <Info/>
         <About/>
-        <div className="w-full h-[1px] bg-slate-500 my-3"></div>
+        <div className="w-full h-[1px] bg-slate-500 my-6"></div>
         <Tools/>
         <Experience/>
           <Projects/>
