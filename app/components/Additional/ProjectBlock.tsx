@@ -1,54 +1,41 @@
 import React from "react";
-import { DiCss3, DiHtml5 } from "react-icons/di";
+import { Info } from "@/app/types";
 import { FaStoreAlt } from "react-icons/fa";
-import { IoDocumentTextOutline } from "react-icons/io5";
-import { LuGithub } from "react-icons/lu";
+import { IconType } from "react-icons";
 
-function ProjectBlock() {
-  const size = 20;
+import bioart from "@/app/components/IMG/bioart.jpeg";
+import Image from "next/image";
+function ProjectBlock({
+  children,
+  data,
+  icon,
+  imageSrc =""
+}: {
+  children: React.ReactNode;
+  data: Info;
+  icon: any;
+  imageSrc:any;
+}) {
   return (
-    <div>
-      <div className="flex flex-row gap-3">
+    <div className="my-2">
+      <div className="flex flex-row gap-3 flex-wrap">
         {/* icono */}
-        <div>
+        <div className="basis-5">
           <div className="bg-[#57ff802c] w-[50px] flex items-center justify-center  h-[50px] rounded-3xl  text-[#89ff9fcd]">
-            <FaStoreAlt size={30} />
+            {icon}
           </div>
         </div>
         {/* content */}
-        <div className="flex flex-col flex-shrink-1 gap-2">
-          <h3 className="font-bold text-[16px] text-[#ECEEEC]">
-            Software random
-          </h3>
-          <p className="text-[14px] text-[#ECEEEC]">
-            Software propiedad de Metacortex
-          </p>
-          <p className="text-xs text-[#F6FEF4B0]">
-            Herramienta para hacer rico a otras personas
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <span className="tools-used">
-              <DiHtml5 /> HTML
-            </span>
-            <span className="tools-used">
-              <DiCss3 /> CSS
-            </span>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            <a className="social-links">
-              <button>
-                <LuGithub size={size} />
-              </button>
-            </a>
-            <a className="social-links py-1">
-              <button>
-                <IoDocumentTextOutline size={size} />
-              </button>
-            </a>
-          </div>
+        <div className="flex flex-col flex-shrink-1 gap-2  basis-1/2">
+          <h3 className="font-bold text-[16px] text-[#ECEEEC]">{data.title}</h3>
+          <p className="text-[14px] text-[#ECEEEC]">{data.subtitle}</p>
+          <p className="text-xs text-[#F6FEF4B0]">{data.description}</p>
+          {children}
         </div>
         {/* image */}
-        <div></div>
+        <div className="basis-1/3  flex-shrink">
+          <Image src={imageSrc} alt="Imagen del proyecto" className="w-[300px] h-[200px] rounded-lg "></Image>
+        </div>
       </div>
     </div>
   );

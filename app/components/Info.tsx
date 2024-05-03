@@ -10,7 +10,7 @@ import { CiLocationOn } from "react-icons/ci";
 export default function Info() {
   const size = 24;
   return (
-    <div className="flex gap-3 justify-start">
+    <div className="flex gap-3 justify-start ">
       <div
         id="image-container"
         className="bg-black w-[128px] min-w-[128px] h-[128px] rounded-full"
@@ -31,7 +31,7 @@ export default function Info() {
         </div>
         <div className="flex flex-row gap-2 text-wrap flex-wrap">
           <div>
-            <button className="bg-[#46a758] font-semibold text-sm rounded-2xl px-4 me-2 py-1 flex flex-row items-center gap-2">
+            <button className="bg-[#46a758] font-medium text-sm rounded-2xl px-4 me-2 py-1 flex flex-row items-center gap-2">
               <MdOutlineMailOutline size={size} />
               joanhurtado@outlook.es
             </button>

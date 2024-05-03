@@ -24,7 +24,7 @@ export default function Experience() {
           </div>
           <div>
             <p className="text-sm text-[#F6FEF4B0]">
-              Trabajo como soporte informático y desarrollador web fullstack. En
+              Trabaje como soporte informático y desarrollador web fullstack. En
               mi estancia aquí pude desarrollar dos proyectos fullstack usando
               React.js , Node.js y MYSQL.
             </p>
@@ -56,11 +56,11 @@ export default function Experience() {
             <p className="m-0 font-bold"> Innovatech Occidente</p>
           </div>
           <div>
-            <p className="capitalize">Product owner and developer</p>
+            <p className="capitalize">Product owner y desarrollador </p>
           </div>
           <div>
             <p className="text-sm text-[#F6FEF4B0]">
-              Trabajo como soporte informático y desarrollador web fullstack. En
+              Trabaje como soporte informático y desarrollador web fullstack. En
               mi estancia aquí pude desarrollar dos proyectos fullstack usando
               React.js , Node.js y MYSQL.
             </p>
