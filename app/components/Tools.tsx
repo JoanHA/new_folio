@@ -9,7 +9,8 @@ import {
   DiHtml5,
   DiPython,
   DiAngularSimple,
-  DiJavascript1 
+  DiJavascript1,
+  DiPostgresql,
 } from "react-icons/di";
 import {
   SiOracle,
@@ -22,6 +23,7 @@ import {
   SiTailwindcss,
   SiDjango,
   SiNestjs,
+  SiCsharp,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -30,8 +32,38 @@ export default function Tools() {
   return (
     <div>
       <div>
-        <h2 className="text-2xl font-bold">Técnologias</h2>
+        <h2 className="text-2xl font-bold">Technologies</h2>
         <div className="flex flex-row gap-4 flex-wrap py-3">
+          <span className="tools">
+            <div>
+              <DiReact size={size} />
+            </div>
+            <p>REACT.JS</p>
+          </span>
+          <span className="tools">
+            <div>
+              <DiNodejsSmall size={size} />
+            </div>
+            <p>NODE JS</p>
+          </span>
+          <span className="tools">
+            <div>
+              <SiExpress size={20} />
+            </div>
+            <p>EXPRESS JS</p>
+          </span>
+          <span className="tools">
+            <div>
+              <DiJavascript1 size={size} />
+            </div>
+            <p>JAVASCRIPT</p>
+          </span>
+          <span className="tools">
+            <div>
+              <SiLaravel size={size}></SiLaravel>
+            </div>
+            <p>LARAVEL</p>
+          </span>
           <span className="tools">
             <div>
               <DiMysql size={size} />
@@ -56,18 +88,6 @@ export default function Tools() {
             </div>
             <p>JAVA</p>
           </span>
-          <span className="tools">
-            <div>
-              <DiReact size={size} />
-            </div>
-            <p>REACT.JS</p>
-          </span>
-          <span className="tools">
-            <div>
-              <DiNodejsSmall size={size} />
-            </div>
-            <p>NODE JS</p>
-          </span>
 
           <span className="tools">
             <div>
@@ -81,24 +101,7 @@ export default function Tools() {
             </div>
             <p>HTML</p>
           </span>
-          <span className="tools">
-            <div>
-              <SiExpress size={20} />
-            </div>
-            <p>EXPRESS JS</p>
-          </span>
-          <span className="tools">
-            <div>
-              <DiJavascript1  size={size} /> 
-            </div>
-            <p>JAVASCRIPT</p>
-          </span>
-          <span className="tools">
-            <div>
-              <SiLaravel size={size}></SiLaravel>
-            </div>
-            <p>LARAVEL</p>
-          </span>
+
           <span className="tools">
             <div>
               <SiJquery size={size}></SiJquery>
@@ -138,21 +141,33 @@ export default function Tools() {
           </span>
           <span className="tools">
             <div>
-              <TbBrandNextjs  size={size} />
+              <TbBrandNextjs size={size} />
             </div>
             <p>NEXT.JS</p>
           </span>
           <span className="tools">
             <div>
-              <SiNestjs  size={size} />
+              <SiNestjs size={size} />
             </div>
             <p>NEST.JS</p>
           </span>
           <span className="tools">
-            <div> 
-              <DiAngularSimple  size={size} />
+            <div>
+              <DiAngularSimple size={size} />
             </div>
             <p>ANGULAR</p>
+          </span>
+          <span className="tools">
+            <div>
+              <SiCsharp size={size} />
+            </div>
+            <p>C#</p>
+          </span>
+          <span className="tools">
+            <div>
+              <DiPostgresql size={size} />
+            </div>
+            <p>Postgresql</p>
           </span>
         </div>
       </div>
