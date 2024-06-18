@@ -7,7 +7,7 @@ import { MdOutlineInventory2 } from "react-icons/md";
 import { CgBrowser } from "react-icons/cg";
 import { TbDeviceDesktopAnalytics } from "react-icons/tb";
 import { IoIosLink } from "react-icons/io";
-import innovaweb from "@/app/components/IMG/innovaWeb.png";
+import innovaweb from "@/app/assets/IMG/innovaWeb.png";
 import {
   SiExpress,
   SiLaravel,
