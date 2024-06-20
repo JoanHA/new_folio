@@ -31,7 +31,7 @@ export default function Projects() {
   return (
     <div>
       <div>
-        <h2 className="my-2 text-2xl font-bold">Proyectos</h2>
+        <h2 className="my-2 text-2xl font-bold capitalize">Projects</h2>
       </div>
       <div className="flex flex-col gap-1">
         {/* Inventory */}

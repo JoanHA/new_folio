@@ -8,11 +8,11 @@ export default function Footer() {
   const size = 24;
   return (
     <div>
-      <div className="flex flex-col gap-1"> 
+      <div className="flex flex-col gap-1">
         <div className="px-1">
           <h3>Joan Sebastian Hurtado A </h3>
         </div>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap max-sm:gap-2 ">
           <div>
             <button className="bg-[#46a758] font-medium text-sm rounded-2xl px-4 me-2 py-1 flex flex-row items-center gap-2">
               <MdOutlineMailOutline size={size} />
@@ -20,17 +20,29 @@ export default function Footer() {
             </button>
           </div>
           <div className="flex flex-row gap-3">
-            <a className="social-links py-1">
+            <a
+              className="social-links py-1"
+              href="Updated Resume Joan Hurtado.pdf"
+              target="_blank"
+            >
               <button>
                 <IoDocumentTextOutline size={size} />
               </button>
             </a>
-            <a className="social-links">
+            <a
+              className="social-links"
+              href="https://github.com/JoanHA"
+              target="_blank"
+            >
               <button>
                 <LuGithub size={size} />
               </button>
             </a>
-            <a className="social-links">
+            <a
+              className="social-links"
+              href="https://www.linkedin.com/in/joan-hurtado-a04ab1255/"
+              target="_blank"
+            >
               <button>
                 <FiLinkedin size={size} />
               </button>

@@ -6,7 +6,7 @@ export default function Education() {
   return (
     <div>
       <div>
-        <h2 className="text-2xl font-bold">Educación</h2>
+        <h2 className="text-2xl font-bold">Education</h2>
       </div>
       {/* Technologist */}
       <div className="flex gap-3 flex-row my-3 py-2">
