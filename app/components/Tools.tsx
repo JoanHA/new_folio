@@ -26,13 +26,16 @@ import {
   SiCsharp,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { getDictionary } from "../dictionaries";
+import { Lang } from "../types/LangTypes";
 
-export default function Tools() {
+export default  async function Tools({ lang }: { readonly lang: string }) {
   const size = 22;
+  const dict:Lang = await getDictionary(lang)
   return (
     <div>
       <div>
-        <h2 className="text-2xl font-bold">Technologies</h2>
+        <h2 className="text-2xl font-bold">{dict.technologies.title}</h2>
         <div className="flex flex-row gap-4 flex-wrap py-3">
           <span className="tools">
             <div>

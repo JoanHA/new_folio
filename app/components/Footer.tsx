@@ -4,7 +4,7 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { LuGithub } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
 
-export default function Footer() {
+export default function Footer({ lang }: { readonly lang: string }) {
   const size = 24;
   return (
     <div>

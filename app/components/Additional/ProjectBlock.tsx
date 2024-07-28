@@ -1,8 +1,7 @@
 import React from "react";
-import { Info } from "@/app/types";
+import { Info } from "@/app/[lang]/types";
 import { FaStoreAlt } from "react-icons/fa";
 import { IconType } from "react-icons";
-
 import bioart from "@/app/components/IMG/bioart.jpeg";
 import Image from "next/image";
 function ProjectBlock({

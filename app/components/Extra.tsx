@@ -3,7 +3,7 @@ import fightGame from "@/app/assets/IMG/fightGame.png";
 import budget from "@/app/assets/IMG/budget.png";
 import Image from "next/image";
 import trello from "@/app/assets/IMG/trelloImage.png";
-function Extra() {
+function Extra({ lang }: { readonly lang: string }) {
   return (
     <div>
       <div className="flex flex-col">
@@ -48,7 +48,7 @@ function Extra() {
             </div>
           </a>
           <a
-            href="http://localhost:5173"
+            href="https://github.com/JoanHA/TrelloClon"
             target="_blank"
             className="flex flex-col rounded-[rgba(255, 255, 255, 0.16)] bg-[#1b1c1ab3] flex-1  max-[462px]:h-[230px] text-black rounded-lg min-h-[230px] extra-link"
           >

@@ -1,0 +1,107 @@
+{
+  "info": {
+    "job": "Desarrollador web fullstack",
+    "location": "Cali, Colombia y remoto"
+  },
+  "about": {
+    "title": "Acerca de mi",
+    "description": "Soy un desarrollador web FullStack apasionado, me encanta aprender cosas nuevas todos los días es por eso que trato de aprender y dominar todas las tecnologías que puedo. Utilizo ese MERN Stack principalmente cuando se trata de mis proyectos personales. Mi meticulosa atención al detalle garantiza resultados de máxima calidad, mientras que mis fuertes habilidades de comunicación impulsan la colaboración multidisciplinar. Mi pasión es afrontar retos ambiciosos y encontrar soluciones creativas. Estoy deseando contribuir a la innovación tecnológica y formar parte de su empresa colaborando en proyectos apasionantes."
+  },
+  "technologies": {
+    "title": "Tecnologias"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "duration": "Actualmente",
+    "items": [
+      {
+        "company": "Infodec S.A",
+        "position": "Desarrollador Fullstack",
+        "duration": "Mayo/2024 - Actualidad",
+        "description": "Lider del proyecto SuperApp de Claro Colombia y desarrollador fullstack realizando y manteniendo mayormente gateways de pagos usando Laravel, creación de formularios de pago y registro de tarjetas con Angular y tareas de segundo plano usando C# y .Net."
+      },
+      {
+        "company": "Bioart S.A",
+        "position": "Desarrollador Fullstack Y Soporte IT",
+        "duration": "Oct/2023 - Abril/2024",
+        "description": "Trabaje como soporte informático y desarrollador web fullstack. En mi estancia aquí pude desarrollar dos proyectos fullstack usando React.js , Node.js y MYSQL."
+      },
+      {
+        "company": "Innovatech Occidente",
+        "position": "(Freelance) Desarrollador Fullstack Y Soporte IT",
+        "duration": "Oct/2023 - Abril/2024",
+        "description": "Me desempeñe como lider del proyecto, Product Owner y desarrollador para un proyecto freelance el cual fue un E-commerce dividido en 3 partes. Web la cual fue desarrollada con Laravel, Bootstrap y JavaScript, Escritorio la cual fue diseñada puramente en Java y JavaFX y movil la cual fue hecha en Flutter. En este proyecto tuve la oportunidad de desarrollar diferentes modulos fullstack tanto en web como en escritorio. Se uso la metodologia SCRUM ya que era un grupo de 20 personas."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "items": [
+      {
+        "id": 1,
+        "name": "Manejo de inventario Bioart",
+        "subtitle": "Aplicación web para la compañia Bioart SA ",
+        "description": "Esta aplicación web fue una solución de software para una empresa llamada Bioart. Ellos necesitaban un lugar donde pudieran almacenar su inventario como Computadoras, Impresoras, celulares, etc. Por lo tanto creé esta aplicación web donde tienen autenticación, autorización, almacenamiento, roles, las operaciones CRUD para el inventario, además de algunas otras características muy útiles para ellos.",
+        "git":"https://github.com/JoanHA/inventory_management",
+        "link":""
+      },
+      {
+        "id": 2,
+        "name": "Manejo de calidad Bioart",
+        "subtitle": "Aplicación web para la compañia Bioart SA ",
+        "description": "Esta aplicación web está dividida en dos módulos, el primero es el de control de versiones de documentos, donde la empresa puede hacer un seguimiento de la versión de sus documentos de calidad, crear nuevos cambios, nuevas versiones, ver dónde están almacenados esos documentos, etc. Y el segundo es el módulo de auditorías donde pueden programar sus auditorías, planes de auditoría, Listas de chequeos, listado de hallazgos y los procesos que tienen en el área de calidad.",
+         "git":"https://github.com/JoanHA/versionControl",
+        "link":""
+      },
+      {
+        "id": 3,
+        "name": "Innovatech E-commerce",
+        "subtitle": "Software para la compañia Innovatech occidente ",
+        "description": "Innova Tech es un comercio electrónico creado para una empresa de tecnología. Este e-commerce fue creado con un grupo usando SCRUM del cual yo era el líder y product Owner. Creé módulos fullstack como el Carrito, Comentarios, Contacto, Sobre nosotros, Categorías, Etc.",
+         "git":"https://github.com/JoanHA/Innovatech_web_e-commerce",
+        "link":"https://innovatechcol.com.co/"
+      },
+      {
+        "id": 4,
+        "name": "Aplicación de escritorio Innovatech ",
+        "subtitle": "Software para la compañia Innovatech occidente",
+        "description": "Esta es una parte del comercio electrónico creado para la empresa innovatech, aquí es donde el administrador podrá crear, editar, eliminar y actualizar los productos que se muestran en la página web. También el administrador es capaz de pedir nuevos productos a sus proveedores y algunas otras características que querían.",
+         "git":"https://github.com/JoanHA/innovatech_desktop",
+        "link":""
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "items": [
+      {
+        "name": "Tecnólogo en analisis y desarrollo de sistemas de información",
+        "subtitle": "SENA (Servicio Nacional de Aprendizaje)",
+        "duration": "Terminado",
+        "description": "Tecnólogo con una duracion de 2 años donde aprendi Django, Laravel, Java, JavaScript, PHP, Flutter, desarrollo movil con java, Python. Ademas de metodologias agiles como SCRUM entre otras cosas."
+      },
+      {
+        "name": "Técnico Proficiencia del ingles comunicativo",
+        "subtitle": "Academia de Ingles New Generation",
+        "duration": "Terminado",
+        "description": "Academia de ingles con duración de 20 meses donde obtuve el nivel B2 segun el marco común europeo en el Michigan English Test (MET)"
+      }
+    ]
+  },
+  "extra": {
+    "projects": [
+      {
+        "title": "Fight Game",
+        "description": "Juego de pelea creado usando Javascript Vanilla"
+      },
+      {
+        "title": "Budget App",
+        "description": "App de presupuesto creada usando Angular y Tailwind"
+      },
+      {
+        "title": "Django Shortener",
+        "description": "Este es un acortador de url Creado con Django "
+      }
+    ]
+  }
+}

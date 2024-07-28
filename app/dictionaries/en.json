@@ -1,0 +1,108 @@
+{
+  "info": {
+    "job": "Fullstack Web Developer",
+    "location": "Cali, Colombia and remote"
+  },
+  "about": {
+    "title": "About me",
+    "description": "I am a passionate FullStack web developer who loves to learn new things every day, which is why I strive to learn and master all the technologies I can. I mainly use the MERN Stack when it comes to my personal projects. My meticulous attention to detail ensures top-quality results, while my strong communication skills drive multidisciplinary collaboration. My passion is taking on ambitious challenges and finding creative solutions. I look forward to contributing to technological innovation and being part of your company by collaborating on exciting projects."
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "experience": {
+    "title": "Experience",
+    "duration": "Currently",
+    "items": [
+      {
+        "company": "Infodec S.A",
+        "position": "Fullstack Developer",
+        "duration": "May/2024 - Present",
+        "description": "Leader of the Claro Colombia SuperApp project and fullstack developer, primarily creating and maintaining payment gateways using Laravel, creating payment forms and card registration with Angular, and background tasks using C# and .Net."
+      },
+      {
+        "company": "Bioart S.A",
+        "position": "Fullstack Developer and IT Support",
+        "duration": "Oct/2023 - April/2024",
+        "description": "Worked as IT support and fullstack web developer. During my time here, I developed two fullstack projects using React.js, Node.js, and MySQL."
+      },
+      {
+        "company": "Innovatech Occidente",
+        "position": "(Freelance) Fullstack Developer and IT Support",
+        "duration": "Oct/2023 - April/2024",
+        "description": "I served as project leader, Product Owner, and developer for a freelance project, which was an e-commerce divided into three parts: Web, developed with Laravel, Bootstrap, and JavaScript; Desktop, designed purely in Java and JavaFX; and Mobile, developed in Flutter. In this project, I had the opportunity to develop various fullstack modules both on the web and desktop. SCRUM methodology was used as it was a team of 20 people."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "id": 1,
+        "name": "Bioart Inventory Management",
+        "subtitle": "Web application for the company Bioart SA",
+        "description": "This web application was a software solution for a company called Bioart. They needed a place where they could store their inventory such as computers, printers, cell phones, etc. So, I created this web application where they have authentication, authorization, storage, roles, CRUD operations for the inventory, as well as some other very useful features for them.",
+        "git": "https://github.com/JoanHA/inventory_management",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "name": "Bioart Quality Management",
+        "subtitle": "Web application for the company Bioart SA",
+        "description": "This web application is divided into two modules. The first is the document version control module, where the company can track the version of their quality documents, create new changes, new versions, see where those documents are stored, etc. The second is the audits module, where they can schedule their audits, audit plans, checklists, list of findings, and the processes they have in the quality area.",
+
+        "git": "https://github.com/JoanHA/versionControl",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "name": "Innovatech E-commerce",
+        "subtitle": "Software for the company Innovatech Occidente",
+        "description": "Innova Tech is an e-commerce created for a technology company. This e-commerce was created with a group using SCRUM, of which I was the leader and Product Owner. I created fullstack modules such as the Cart, Comments, Contact, About Us, Categories, etc.",
+        "git": "https://github.com/JoanHA/Innovatech_web_e-commerce",
+        "link": "https://innovatechcol.com.co/"
+      },
+      {
+        "id": 4,
+        "name": "Innovatech Desktop Application",
+        "subtitle": "Software for the company Innovatech Occidente",
+        "description": "This is a part of the e-commerce created for the company Innovatech. Here, the administrator can create, edit, delete, and update the products displayed on the website. The administrator is also able to order new products from their suppliers and some other features they wanted.",
+        "git": "https://github.com/JoanHA/innovatech_desktop",
+        "link": ""
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "name": "Technologist in Analysis and Development of Information Systems",
+        "subtitle": "SENA (National Learning Service)",
+        "duration": "Completed",
+        "description": "Technologist with a duration of 2 years where I learned Django, Laravel, Java, JavaScript, PHP, Flutter, mobile development with Java, Python, as well as agile methodologies such as SCRUM among other things."
+      },
+      {
+        "name": "Technical Proficiency in Communicative English",
+        "subtitle": "New Generation English Academy",
+        "duration": "Completed",
+        "description": "English academy with a duration of 20 months where I obtained the B2 level according to the Common European Framework in the Michigan English Test (MET)."
+      }
+    ]
+  },
+  "extra": {
+    "projects": [
+      {
+        "title": "Fight Game",
+        "description": "Fighting game created using Vanilla JavaScript"
+      },
+      {
+        "title": "Budget App",
+        "description": "Budget app created using Angular and Tailwind"
+      },
+      {
+        "title": "Django Shortener",
+        "description": "This is a URL shortener created with Django"
+      }
+    ]
+  }
+}

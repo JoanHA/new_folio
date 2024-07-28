@@ -2,7 +2,7 @@ import React from "react";
 import { GiDiploma } from "react-icons/gi";
 import { FaLanguage } from "react-icons/fa6";
 
-export default function Education() {
+export default function Education({ lang }: { readonly lang: string }) {
   return (
     <div>
       <div>
