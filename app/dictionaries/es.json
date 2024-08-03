@@ -1,11 +1,11 @@
 {
   "info": {
-    "job": "Desarrollador web fullstack",
+    "job": "Desarrollador  fullstack",
     "location": "Cali, Colombia y remoto"
   },
   "about": {
     "title": "Acerca de mi",
-    "description": "Soy un desarrollador web FullStack apasionado, me encanta aprender cosas nuevas todos los días es por eso que trato de aprender y dominar todas las tecnologías que puedo. Utilizo ese MERN Stack principalmente cuando se trata de mis proyectos personales. Mi meticulosa atención al detalle garantiza resultados de máxima calidad, mientras que mis fuertes habilidades de comunicación impulsan la colaboración multidisciplinar. Mi pasión es afrontar retos ambiciosos y encontrar soluciones creativas. Estoy deseando contribuir a la innovación tecnológica y formar parte de su empresa colaborando en proyectos apasionantes."
+    "description": "Soy un desarrollador FullStack apasionado, me encanta aprender cosas nuevas todos los días es por eso que trato de aprender y dominar todas las tecnologías que puedo. Utilizo ese MERN Stack principalmente cuando se trata de mis proyectos personales. Mi meticulosa atención al detalle garantiza resultados de máxima calidad, mientras que mis fuertes habilidades de comunicación impulsan la colaboración multidisciplinar. Mi pasión es afrontar retos ambiciosos y encontrar soluciones creativas. Estoy deseando contribuir a la innovación tecnológica y formar parte de su empresa colaborando en proyectos apasionantes."
   },
   "technologies": {
     "title": "Tecnologias"
@@ -30,7 +30,7 @@
         "company": "Innovatech Occidente",
         "position": "(Freelance) Desarrollador Fullstack Y Soporte IT",
         "duration": "Oct/2023 - Abril/2024",
-        "description": "Me desempeñe como lider del proyecto, Product Owner y desarrollador para un proyecto freelance el cual fue un E-commerce dividido en 3 partes. Web la cual fue desarrollada con Laravel, Bootstrap y JavaScript, Escritorio la cual fue diseñada puramente en Java y JavaFX y movil la cual fue hecha en Flutter. En este proyecto tuve la oportunidad de desarrollar diferentes modulos fullstack tanto en web como en escritorio. Se uso la metodologia SCRUM ya que era un grupo de 20 personas."
+        "description": "Me desempeñe como lider del proyecto, Product Owner y desarrollador para este proyecto el cual fue un E-commerce dividido en 3 partes. Web la cual fue desarrollada con Laravel.  Escritorio la cual fue diseñada puramente en Java y móvil la cual fue hecha en Flutter. En este proyecto tuve la oportunidad de desarrollar diferentes modulos fullstack tanto en web como en escritorio."
       }
     ]
   },
@@ -100,7 +100,7 @@
       },
       {
         "title": "Django Shortener",
-        "description": "Este es un acortador de url Creado con Django "
+        "description": "Este es un simple acortador de url creado con Django "
       }
     ]
   }

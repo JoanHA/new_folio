@@ -37,11 +37,17 @@ export default  async function Tools({ lang }: { readonly lang: string }) {
       <div>
         <h2 className="text-2xl font-bold">{dict.technologies.title}</h2>
         <div className="flex flex-row gap-4 flex-wrap py-3">
-          <span className="tools">
+        <span className="tools">
             <div>
               <DiReact size={size} />
             </div>
             <p>REACT.JS</p>
+          </span>
+          <span className="tools">
+            <div>
+              <DiReact size={size} />
+            </div>
+            <p>REACT NATIVE</p>
           </span>
           <span className="tools">
             <div>

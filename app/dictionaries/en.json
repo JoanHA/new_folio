@@ -1,11 +1,11 @@
 {
   "info": {
-    "job": "Fullstack Web Developer",
+    "job": "Fullstack  Developer",
     "location": "Cali, Colombia and remote"
   },
   "about": {
     "title": "About me",
-    "description": "I am a passionate FullStack web developer who loves to learn new things every day, which is why I strive to learn and master all the technologies I can. I mainly use the MERN Stack when it comes to my personal projects. My meticulous attention to detail ensures top-quality results, while my strong communication skills drive multidisciplinary collaboration. My passion is taking on ambitious challenges and finding creative solutions. I look forward to contributing to technological innovation and being part of your company by collaborating on exciting projects."
+    "description": "I am a passionate FullStack  developer who loves to learn new things every day, which is why I strive to learn and master all the technologies I can. I mainly use the MERN Stack when it comes to my personal projects. My meticulous attention to detail ensures top-quality results, while my strong communication skills drive multidisciplinary collaboration. My passion is taking on ambitious challenges and finding creative solutions. I look forward to contributing to technological innovation and being part of your company by collaborating on exciting projects."
   },
   "technologies": {
     "title": "Technologies"
@@ -30,7 +30,7 @@
         "company": "Innovatech Occidente",
         "position": "(Freelance) Fullstack Developer and IT Support",
         "duration": "Oct/2023 - April/2024",
-        "description": "I served as project leader, Product Owner, and developer for a freelance project, which was an e-commerce divided into three parts: Web, developed with Laravel, Bootstrap, and JavaScript; Desktop, designed purely in Java and JavaFX; and Mobile, developed in Flutter. In this project, I had the opportunity to develop various fullstack modules both on the web and desktop. SCRUM methodology was used as it was a team of 20 people."
+        "description": "I served as project leader, Product Owner, and developer for this project, which was an e-commerce divided into three parts: Web, developed with Laravel. Desktop, designed purely in Java  and Mobile, developed in Flutter. In this project, I had the opportunity to develop various fullstack modules both on the web and desktop."
       }
     ]
   },

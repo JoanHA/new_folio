@@ -17,16 +17,14 @@ export default async function Info({ lang }: { readonly lang: string }) {
     <>
       <div className="flex flex-row w-full justify-end gap-6 mb-1">
         <div className="border rounded-xl py-1  px-2 flex items-center justify-center shrink   ">
-          <button className="flex flex-row items-center">
-            <MdTranslate size={30}></MdTranslate>{" "}
-          </button>
           <Dropdown />
         </div>
+        {/* Comming soon 
         <div className="border rounded-xl py-1 px-2 flex items-center justify-center">
           <button>
             <MdLightMode size={30} />
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="flex gap-3 justify-start ">
         <div
