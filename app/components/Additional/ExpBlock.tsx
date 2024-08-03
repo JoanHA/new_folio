@@ -1,4 +1,4 @@
-"use clien";
+"use client";
 import React from "react";
 import { FaStoreAlt } from "react-icons/fa";
 import { FaBiohazard, FaLaptopCode } from "react-icons/fa6";
@@ -7,7 +7,7 @@ export default function ExpBlock({ dict }: { readonly dict: any }) {
   return (
     <>
       {dict.experience.items.map((item: any, index: number) => (
-        <div className="flex gap-3 flex-row my-3">
+        <div className="flex gap-3 flex-row my-3" key={index}>
           <div className="  flex ">
             <div className="bg-[#57ff802c] w-[50px] flex items-center justify-center  h-[50px] rounded-3xl  text-[#89ff9fcd]">
               {index == 0 ? (

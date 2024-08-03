@@ -28,6 +28,7 @@ export default async function Projects({ lang }: { readonly lang: string }) {
       <div className="flex flex-col gap-1">
         {dict.projects.items.map((item: projectItem) => (
           <ProjectBlock
+          key={item.id}
             imageSrc={
               item.id == 1 || item.id == 2
                 ? bioartImage
